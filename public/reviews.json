@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co/hXCmvS6/4437144b2e4d552268d06b6c3fb9a9b6.jpg",
+    "name": "Onik Doe",
+    "position": "CEO of others",
+    "description": " Crafting impactful digital experiences. Our thoughtful design, strategic development, and seamless user experiences drive measurable results, connecting you with your audience."
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co/F8FXk3d/photo-1633332755192-727a05c4013d.jpg",
+    "name": "John Doe",
+    "position": "CEO of others",
+    "description": " Crafting impactful digital experiences. Our thoughtful design, strategic development, and seamless user experiences drive measurable results, connecting you with your audience."
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co/hXCmvS6/4437144b2e4d552268d06b6c3fb9a9b6.jpg",
+    "name": "John Doe",
+    "position": "CEO of others",
+    "description": " Crafting impactful digital experiences. Our thoughtful design, strategic development, and seamless user experiences drive measurable results, connecting you with your audience."
+  }
+]
