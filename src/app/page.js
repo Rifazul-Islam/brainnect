@@ -3,6 +3,7 @@ import ChooseUs from "@/components/ChooseUs/ChooseUs";
 import OurGoals from "@/components/OurGoals/OurGoals";
 
 import Reviews from "@/components/Reviews/Reviews";
+import Services from "@/components/Services/Services";
 
 import TeamInfo from "@/components/TeamInfo/TeamInfo";
 
@@ -12,6 +13,7 @@ const Home = () => {
       <Banner></Banner>
       <OurGoals></OurGoals>
       <ChooseUs></ChooseUs>
+      <Services></Services>
       <TeamInfo></TeamInfo>
       <Reviews></Reviews>
     </div>
