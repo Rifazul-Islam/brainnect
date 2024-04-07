@@ -1,6 +1,9 @@
 import ChooseUs from "@/components/ChooseUs/ChooseUs";
 import Navbar from "@/components/Navbar/Navbar";
 import OurGoals from "@/components/OurGoals/OurGoals";
+
+import Reviews from "@/components/Reviews/Reviews";
+
 import TeamInfo from "@/components/TeamInfo/TeamInfo";
 
 const Home = () => {
@@ -10,6 +13,7 @@ const Home = () => {
       <OurGoals></OurGoals>
       <ChooseUs></ChooseUs>
       <TeamInfo></TeamInfo>
+      <Reviews></Reviews>
     </div>
   );
 };
