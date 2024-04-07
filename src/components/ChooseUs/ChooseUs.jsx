@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const ChooseUs = () => {
   return (
-    <div className="my-16 lg:px-40">
+    <div className="mt-16 lg:px-40">
       <div className="flex  justify-center flex-col lg:flex-row ">
         <div className="flex-1 ">
           <Image
