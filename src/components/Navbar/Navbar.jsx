@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="flex items-center gap-4">
         <ul className="flex items-center space-x-5 text-base font-normal">
           <li><Link href={"/"}>Home</Link></li>
-          <li><Link href={"/"}>About Us</Link></li>
+          <li><Link href={"/about-us"}>About Us</Link></li>
           <li><Link href={"/"}>Projects</Link></li>
           <li><Link href={"/"}>Contact Us</Link></li>
         </ul>

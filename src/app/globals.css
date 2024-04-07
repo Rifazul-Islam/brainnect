@@ -4,11 +4,11 @@
 
 
 .our_badge {
-    @apply text-primary bg-badge border-primary border-[1.5px] py-1 px-4 font-medium rounded-xl cursor-pointer text-sm
+    @apply text-primary bg-badge border-primary border-[1.5px] py-1 px-4 capitalize font-medium rounded-xl cursor-pointer text-sm
 }
 
 .primary-btn {
-    @apply capitalize font-medium bg-primary text-white px-5 py-2 rounded-xl hover:scale-110 transition-all
+    @apply capitalize font-medium bg-primary text-white px-5 py-2.5 rounded-xl hover:scale-110 transition-all
 }
 
 .primary-btn {
@@ -24,4 +24,20 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 'center center'
+}
+
+
+
+/* ABOUT US PAGE */
+
+.about_banner {
+    @apply bg-gradient-to-tl to-[#fcf8fb] from-[#e7e1f4]
+}
+
+.about_container {
+    @apply max-w-[1300px] mx-auto grid grid-cols-2 items-center min-h-[110vh] -mt-[15vh]
+}
+
+.about_img {
+    @apply w-11/12 h-auto mx-auto
 }
