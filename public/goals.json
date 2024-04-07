@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "img": "https://s3-alpha-sig.figma.com/img/77f1/0c65/04be221395d62fcee7333b6fcf7561fe?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CiMkqpBOAa2zbc5oG270EingUcc5ts8d6cWxiOD518UCQkuQurzv136dT74c6u8wAHCuxnhhkWc6xFv~J04fSeS9KhM1gyFA9AFE6HnLeYEt3RnjRgggQfU5IT7rm~zG7s0ahIBA0qV9nEaWWDjfqmFTnbwGD797sxwXzjs1hZZ-v~z1ph99jTqSrOK~iWN5YQWwbeTY9B1cBK0sqFzHILIy2hxiUIWm6bdW0IKQ7klvB63J1e~xVvcDxOVTTCGwYFy8ONNB0Y50Iex~0UuZJ-BfzVQgs--EZ7Rfs6XDNZkLREdBBG-QVRS2r2VeKssr~GKW0ZQueN3OxbDOYFfStw__",
+    "title": "Customer Satisfaction",
+    "description": "Our goal is client delight. We tailor solutions to exceed expectations, ensuring clear communication and proactive problem-solving."
+  },
+  {
+    "id": 2,
+    "img": "https://s3-alpha-sig.figma.com/img/3270/e3ab/d788f9a72fe1cd1acf7e205f2f119025?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=IhY~5UAXThgklLjDCljTOVyaBFRY1KyHjQ7uqIY~FC1a50~1SbZyLG6eE935ptYWK2kKmTmjI9wT87dgIwkP72K6vcMTpikHIWPxBXuK7Op6t0vIGS-CIjsXjMpZh2xaPff~dhEN0~JDvP7RxfK1DJUZuRmwu6trlnoFhXLMtSJHrCOwpT1e3CP~rRBlJCAnH3SjTnir6nZjOTs5z~Wx-j3htTgP~HKyr~IJ4ewdzG4cTqxzXS1zV6NHbKzYUIC-mN97-Gjlhmr6g8B8ahtMxkAQfC46WwqAncxgdl2tHf1zKOXuFlfAS9fTapbQ9tc-kTMo~2wFsQKXEQ4a1TnCLA__",
+    "title": "Timely Delivery",
+    "description": "Punctuality is key. Meticulous project management ensures projects are completed on time, enabling clients to seize opportunities without delays."
+  },
+  {
+    "id": 3,
+    "img": "https://s3-alpha-sig.figma.com/img/05a5/5113/7249ada71f05c5a2ea772307ed116dc1?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Dn0uBzWFbd3OukY-8SLJu-c8gt5~5Y-KZBBJumYclJ5hhVap76LncEWXtJLTd0z6C3J8gyprUd15~OZmW117HWV2epfUuNaznOogh6wC38ayjCTaeEXK1f-IAbiEUEygzBekKDduhUpuljl65kVHVadY900iVYt5caIr-OmPQrmTyAYNsAQ6YXjU2hYBI5Cls-Y2ebyKIeCjohENL-VkEcJeKRpJvh4BnOVp9h2QxsWTANlYhHViTp0eRxfqzesT-mbTPo4jgU2fdBqTZ1l6gfwRic2e4CfY1XEW9HwFJyrK6u-Zu~5boqK1WHSPu8YvtAuGCrTMeaXkenjPdnVmTw__",
+    "title": "Effective Communication",
+    "description": "Clear and transparent communication is paramount. We keep clients informed and involved every step of the way."
+  },
+  {
+    "id": 4,
+    "img": "https://s3-alpha-sig.figma.com/img/83d2/5fb6/be9eebc159bc20f3bc0b38df49b15e8d?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kM-lkqZGuSbuMv9ZAu138qKOSBR-46Yctc4YkSijcLOsP5k~O2Ti7SwjdfR~6uu7oDkLD7oaE4jp35GXGrfUoyM-FZexYL2-kk7EBQ3juP5AJDKCtvrC-bNUbSxerxahYH066tasjiJoPhqw6H0Ls4o4dwO0SO1LyYbEfuA0HU2Wmh-0yIxWjtEzogVb47orRJXYDteb9iyiMb1FXqNPmd9x3xdnwUX4NOX1mlTwx3hviVfVGworUVA16ACTpuBUiAU9I2VxvQQCfphRs9jP8l2giMINS627n8d2PGQ6NiUn8RfbAERq5X3k6yL~oBcRRtbH-JiRL4~6uBnqn07ueA__",
+    "title": "Long-Term Partnerships",
+    "description": "We aim for lasting relationships. By delivering ongoing support and future-ready solutions, we become trusted partners in our clients' success."
+  },
+  {
+    "id": 5,
+    "img": "https://s3-alpha-sig.figma.com/img/6ab7/7dd5/7b73927726f08998532ca5e5da921865?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=R-VOr7dA1aK9ByZG0a38uab~6V1aDxqYDMU2vdclJsrLzrHX~4a8B5FRM5HYcGzRI2FH5zd0uHGu-q46aEBANfygurVheDckk5CfjFS54gz5BCLGuVwjN2-iCvw~5vY2AHZuEqxIpzKiDBcrW2RpDCaNal9BJsYHx6eDOgDtqTBUrKu3C3WyrTWfYL3nGvrIMSqkcvr08tMwA0Lsl3ic33vzPu56n2am9G78WzpR69aDkqf4WTkE5PZWjfV0lzfkZW0mmyX426PJaqz2f5IXFgsn5xrUdvP3hfQMsZzYaRjC-qP6Q-0x3Y0jZmptqG8abKtynECkJZUmqtbgo7FuxA__",
+    "title": "Optimized Performance",
+    "description": "Punctuality is key. Meticulous project management ensures projects are completed on time, enabling clients to seize opportunities without delays."
+  },
+  {
+    "id": 6,
+    "img": "https://s3-alpha-sig.figma.com/img/5f92/ef3f/7ad959d08fb5b91dbc430b4a50b00a6f?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=nFt-KMT~ZXM51rrMhAftdYOIKfh6WcSsJhO1-VaEDXBD4DvE9k6UwkiY4XPqF82Q950ffzpTgud-0mvbgHW0hHv-L2EiCCEsFOguVFscHfxYuh0nZHg2YG97zsAuyqH8CkTYNDXYs2k1XFjfcbuDnb20biuOEnajRajl-UlPsxtEKOdfh0a5WEWRXdkkue8lGXLHg61KorIpvxQg0gGK6igrBdrRCv7GJsY0JcES~1~QkqGSo7fwQO6VvPwcZwt5kqUj55dfbE4O8-VwxX42Leh93cSE8RiUbCDWG3L8~UC1RXsQKWWK5ey~FXlL3UL-H3uQr9ksAVkFa0JAfAJ~gA__",
+    "title": "Quality Excellence",
+    "description": "We strive for top-tier quality. From design to development, our solutions are visually stunning, functionally robust, and user-friendly."
+  }
+]
