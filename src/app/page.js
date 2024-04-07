@@ -5,11 +5,13 @@ import OurGoals from "@/components/OurGoals/OurGoals";
 import Reviews from "@/components/Reviews/Reviews";
 
 import TeamInfo from "@/components/TeamInfo/TeamInfo";
+import Video from "@/components/Video/Video";
 
 const Home = () => {
   return (
     <div className="max-w-screen-2xl mx-auto">
       <Banner></Banner>
+      <Video></Video>
       <OurGoals></OurGoals>
       <ChooseUs></ChooseUs>
       <TeamInfo></TeamInfo>
