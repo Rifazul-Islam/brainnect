@@ -4,7 +4,7 @@
 
 
 .our_badge {
-    @apply text-primary bg-badge border-primary border-[1.5px] py-1 px-4 capitalize font-medium rounded-xl cursor-pointer text-sm
+    @apply text-primary bg-badge border-primary border-[1.5px] py-1 px-4 capitalize font-medium rounded-xl text-sm
 }
 
 .primary-btn {
