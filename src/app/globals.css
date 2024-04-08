@@ -38,8 +38,3 @@
 .about_img {
   @apply w-11/12 h-auto mx-auto;
 }
-
-/* TESTIMONIALS */
-.testimonial_card {
-  @apply border-2 rounded-lg min-h-full;
-}
