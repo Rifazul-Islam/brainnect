@@ -2,42 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .our_badge {
-    @apply text-primary bg-badge border-primary border-[1.5px] py-1 px-4 capitalize font-medium rounded-xl cursor-pointer text-sm
+  @apply text-primary bg-badge border-primary border-[1.5px] py-1 px-4 capitalize font-medium rounded-xl cursor-pointer text-sm;
 }
 
 .primary-btn {
-    @apply capitalize font-medium bg-primary text-white px-5 py-2.5 rounded-xl hover:scale-110 transition-all
+  @apply capitalize font-medium bg-primary text-white px-5 py-2.5 rounded-xl hover:scale-110 transition-all;
 }
 
 .primary-btn {
-    box-shadow: 0px 0px 30px rgba(252, 71, 114, 0.7)
+  box-shadow: 0px 0px 30px rgba(252, 71, 114, 0.7);
 }
 
 .second-btn {
-    @apply border-2 border-primary px-4 py-2 rounded-xl font-semibold capitalize flex gap-2 items-center text-primary hover:scale-110 transition-all
+  @apply border-2 border-primary px-4 py-2 rounded-xl font-semibold capitalize flex gap-2 items-center text-primary hover:scale-110 transition-all;
 }
 
 .banner {
-    background-image: url('../assets/banner-bg.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 'center center'
+  background-image: url("../assets/banner-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: "center center";
 }
-
-
 
 /* ABOUT US PAGE */
 
 .about_banner {
-    @apply bg-gradient-to-tl to-[#fcf8fb] from-[#e7e1f4]
+  @apply bg-gradient-to-tl to-[#fcf8fb] from-[#e7e1f4];
 }
 
 .about_container {
-    @apply max-w-[1300px] mx-auto grid grid-cols-2 items-center min-h-[110vh] -mt-[15vh]
+  @apply max-w-[1300px] mx-auto grid grid-cols-2 items-center min-h-[110vh] -mt-[15vh];
 }
 
 .about_img {
-    @apply w-11/12 h-auto mx-auto
+  @apply w-11/12 h-auto mx-auto;
+}
+
+/* TESTIMONIALS */
+.testimonial_card {
+  @apply border-2 rounded-lg min-h-full;
 }

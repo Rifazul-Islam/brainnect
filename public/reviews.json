@@ -19,5 +19,19 @@
     "name": "John Doe",
     "position": "CEO of others",
     "description": " Crafting impactful digital experiences. Our thoughtful design, strategic development, and seamless user experiences drive measurable results, connecting you with your audience."
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co/hXCmvS6/4437144b2e4d552268d06b6c3fb9a9b6.jpg",
+    "name": "John Doe",
+    "position": "CEO of others",
+    "description": " Crafting impactful digital experiences. Our thoughtful design, strategic development, and seamless user experiences drive measurable results, connecting you with your audience."
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co/hXCmvS6/4437144b2e4d552268d06b6c3fb9a9b6.jpg",
+    "name": "John Doe",
+    "position": "CEO of others",
+    "description": " Crafting impactful digital experiences. Our thoughtful design, strategic development, and seamless user experiences drive measurable results, connecting you with your audience."
   }
 ]
