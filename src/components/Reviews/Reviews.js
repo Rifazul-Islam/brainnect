@@ -29,7 +29,7 @@ const Reviews = () => {
         </h2>
       </div>
 
-      <div className="lg:px-40 ">
+      <div className="lg:px-40  ">
         <>
           <Swiper
             slidesPerView={2}
@@ -41,8 +41,8 @@ const Reviews = () => {
             className="mySwiper"
           >
             {reviews?.map((review) => (
-              <SwiperSlide key={review?.id} className="my-12">
-                <div className="card  bg-base-100 shadow-xl border">
+              <SwiperSlide key={review?.id} className="my-12 min-h-full">
+                <div className="card  bg-base-100 shadow-xl border ">
                   <div className="flex justify-between px-3 pt-3">
                     <div className="flex items-center gap-2 pl-3">
                       <Image
