@@ -7,6 +7,9 @@ html, body {
   max-width: 100%!important;
 }
 
+
+/* COMMON STYLES */
+
 .our_badge {
     @apply text-primary bg-badge border-primary border-[1.5px] py-1 px-4 capitalize font-medium rounded-xl text-sm
 }
@@ -17,6 +20,10 @@ html, body {
 
 .primary-btn {
   box-shadow: 0px 0px 30px rgba(252, 71, 114, 0.7);
+}
+
+.primary_title {
+  @apply text-2xl lg:text-3xl font-semibold mt-5
 }
 
 
@@ -76,6 +83,33 @@ html, body {
 
 .video_element_2 {
   @apply bg-[#797cff] bottom-0 right-0
+}
+
+
+/* SERVICES SECTION */
+
+.service_card {
+  @apply bg-base-100 border-2 rounded-xl p-4 lg:p-6 transition-all hover:border-primary hover:border-opacity-40
+}
+
+.service_icon {
+  @apply bg-[#FEDAE3] p-3 rounded-lg inline-block
+}
+
+.service_card img {
+  @apply h-[22px] lg:h-[27px] w-[22px] lg:w-[27px]
+}
+
+.service_card h2 {
+  @apply font-semibold text-xl lg:text-[22px] mt-4 mb-1.5
+}
+
+.service_card p {
+  @apply font-medium text-slate-500 text-base lg:text-[17px]
+}
+
+.service_card_container {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-5
 }
 
 
