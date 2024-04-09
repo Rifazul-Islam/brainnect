@@ -37,16 +37,45 @@ html, body {
   background-position: "center center";
 }
 
-.banner > div {
+.banner > div,
+.video_section {
   @apply max-w-[90%] lg:max-w-[1300px] mx-auto
 }
 
 .banner h2 {
-  @apply font-semibold lg:font-bold leading-snug lg:leading-normal text-slate-950 text-3xl lg:text-5xl md:px-40 mt-6
+  @apply font-semibold lg:font-bold leading-snug md:leading-normal text-slate-950 text-3xl md:text-4xl lg:text-5xl lg:px-40 mt-6
 }
 
 .banner p {
-  @apply font-medium text-slate-700 leading-normal text-base lg:text-lg lg:px-40 mt-3
+  @apply font-medium text-slate-700 leading-normal text-base md:text-lg lg:px-40 mt-3
+}
+
+.btn-container {
+  @apply mt-8 flex flex-wrap gap-7 justify-center w-full
+}
+
+
+/* VIDEO */
+
+.video_container {
+  @apply w-full lg:w-3/4 mx-auto h-auto p-2 lg:p-5 relative
+}
+
+.video {
+  @apply w-full h-48 md:h-96 lg:h-[600px] rounded-3xl z-10 border-4 border-white
+}
+
+.video_element_1,
+.video_element_2 {
+  @apply w-40 h-40 rounded-2xl absolute -z-10
+}
+
+.video_element_1 {
+  @apply bg-[#ffa6f9] top-0 left-0
+}
+
+.video_element_2 {
+  @apply bg-[#797cff] bottom-0 right-0
 }
 
 

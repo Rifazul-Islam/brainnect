@@ -12,7 +12,7 @@ const Banner = () => {
                 </span>
                 <h2>Crafting Digital Masterpieces That Tell Your Brand{"'"}s Story with Impact</h2>
                 <p>Crafting impactful digital experiences. Our thoughtful design, strategic development, and seamless user experiences drive measurable results, connecting you with your audience.</p>
-                <div className='mt-8 flex flex-wrap gap-7 justify-center w-full'>
+                <div className='btn-container'>
                     <button className='primary-btn'>get a quote</button>
                     <button className='second-btn'>
                         <Image src={PlayIcon} alt='banner' className='w-4 h-4'></Image>
