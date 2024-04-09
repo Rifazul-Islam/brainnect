@@ -1,16 +1,18 @@
 "use client";
-// Import Swiper React components
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
-// Import Swiper styles
+import quoteImg from '@/assets/quote.png'
+
 import "swiper/css";
 import "swiper/css/pagination";
 
-// import required modules
 import { Pagination } from "swiper/modules";
 import { useEffect, useState } from "react";
+
 const Reviews = () => {
   const [reviews, setReviews] = useState();
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
   useEffect(() => {
     fetch("/reviews.json")
@@ -21,19 +23,19 @@ const Reviews = () => {
   return (
     <div className="my-10">
       <div className="text-center ">
-        <span className="text-red-600 border-red-400 border p-1 px-4 rounded-md cursor-pointer">
-          Review
+        <span className="our_badge">
+          Reviews
         </span>
-        <h2 className="text-3xl font-semibold my-2 mt-3">
+        <h2 className="primary_title">
           What Our Client Says
         </h2>
       </div>
 
-      <div className="lg:px-40  ">
+      <div>
         <>
           <Swiper
-            slidesPerView={2}
-            spaceBetween={20}
+            slidesPerView={screenWidth > 768 ? 2 : 1}
+            spaceBetween={30}
             pagination={{
               clickable: true,
             }}
@@ -41,37 +43,33 @@ const Reviews = () => {
             className="mySwiper"
           >
             {reviews?.map((review) => (
-              <SwiperSlide key={review?.id} className="my-12 min-h-full">
-                <div className="card  bg-base-100 shadow-xl border ">
+              <SwiperSlide key={review?.id} className="my-6">
+                <div className="review_card">
                   <div className="flex justify-between px-3 pt-3">
                     <div className="flex items-center gap-2 pl-3">
                       <Image
-                        className="w-12 h-12 rounded-full"
                         src={review?.image}
                         width={300}
                         height={50}
-                        alt=""
+                        alt="reviewer image"
                       />
                       <div className="p-3">
-                        <h2 className="font-bold text-[19px]">
+                        <h2 className="font-semibold text-[19px]">
                           {review?.name}
                         </h2>
-                        <h3 className="font-semibold"> {review?.position} </h3>
+                        <h3 className="font-semibold text-slate-600"> {review?.position} </h3>
                       </div>
                     </div>
 
                     <div>
                       <Image
-                        className="w-12 h-12 rounded-full"
-                        src="https://s3-alpha-sig.figma.com/img/e06b/aa00/f42aee9e8e95f37690b43f72d1bea5f8?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=qpfWoGT9fSUk~k1jWoVmUopl3QVzQ-qHt-UlQKjDjlsdTQnkxZBAdtBJteIw6HSeI3zCEJFBGBLcilE099na36ybVDiKtfIyUwiDOPCygVoDPZ6~d2xdhhqelOql0LmY-BDxq16ni5-T7Nvvi5lCAhNnXcvR7ODIZj4VcTPQ~Ov1S8OXUYdBmVtIkuSTfBbciuwp0GejuyN1XFEg2ZWNXPdkkFo1n5xrOgTfVQ9GocQpQ6On2k3-2U1tXXQ~nOxJsw9QEn91WBnP3NKxNOw7zcpotgmgBoSH2ARzOfpzKcqtGKMljQwsT3Jl5vm7iQVapPSnhoHXHzydHBQogjfafw__"
-                        width={300}
-                        height={50}
-                        alt=""
+                        src={quoteImg}
+                        alt="quote"
                       />
                     </div>
                   </div>
 
-                  <p className="border "></p>
+                  <div className="border-b-2"></div>
                   <div className="my-5 px-4 ">
                     <p> {review?.description} </p>
                   </div>

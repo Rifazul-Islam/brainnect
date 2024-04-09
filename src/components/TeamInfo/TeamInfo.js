@@ -12,15 +12,15 @@ const TeamInfo = () => {
       .then((data) => setTeamInfos(data));
   }, []);
   return (
-    <div className="lg:px-40 ">
+    <div className="team_section py-10">
       <div className="text-center ">
-        <span className="text-red-600 border-red-400 border p-1 px-4 rounded-md cursor-pointer">
+        <span className="our_badge">
           Team
         </span>
-        <h2 className="text-3xl font-semibold my-2 mt-3">Our Wonderful Team</h2>
+        <h2 className="primary_title">Our Wonderful Team</h2>
       </div>
 
-      <div className="grid lg:grid-cols-3 gap-5 mt-7 px-4">
+      <div className="service_card_container !mt-10">
         {teamInfos?.map((teamInfo) => (
           <Card key={teamInfo?.id} teamInfo={teamInfo}></Card>
         ))}

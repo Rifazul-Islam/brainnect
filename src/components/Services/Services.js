@@ -11,15 +11,15 @@ const Services = () => {
       .then((data) => setServices(data));
   }, []);
   return (
-    <div className="my-16">
+    <div className="my-5 md:my-10">
       <div className="text-center ">
-        <span className="text-red-600 border-red-400 border p-1 px-4 rounded-md cursor-pointer">
+        <span className="our_badge">
           Services
         </span>
-        <h2 className="text-3xl font-semibold my-2 mt-3">Our Services</h2>
+        <h2 className="primary_title">Our Services</h2>
       </div>
 
-      <div className="lg:px-40 px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-5">
+      <div className="service_card_container">
         {services?.map((service) => (
           <ServiceCard key={service.id} service={service}></ServiceCard>
         ))}

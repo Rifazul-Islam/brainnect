@@ -2,20 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
+html, body {
+  overflow-x: hidden!important;
+  max-width: 100%!important;
+}
+
+
+/* COMMON STYLES */
+
 .our_badge {
-  @apply text-primary bg-badge border-primary border-[1.5px] py-1 px-4 capitalize font-medium rounded-xl cursor-pointer text-sm;
+    @apply text-primary bg-badge border-primary border-[1.5px] py-1 px-4 capitalize font-medium rounded-xl text-sm
 }
 
 .primary-btn {
-  @apply capitalize font-medium bg-primary text-white px-5 py-2.5 rounded-xl hover:scale-110 transition-all;
+  @apply capitalize font-medium bg-primary text-white px-5 py-2.5 rounded-xl hover:scale-110 transition-all w-fit;
 }
 
 .primary-btn {
   box-shadow: 0px 0px 30px rgba(252, 71, 114, 0.7);
 }
 
+.primary_title {
+  @apply text-2xl lg:text-3xl font-semibold mt-5
+}
+
+.swiper-pagination { 
+  position: static!important
+}
+
+.swiper-pagination-bullet {
+  @apply !bg-primary
+}
+
+
+/* BANNER */
+
 .second-btn {
-  @apply border-2 border-primary px-4 py-2 rounded-xl font-semibold capitalize flex gap-2 items-center text-primary hover:scale-110 transition-all;
+  @apply border-2 border-primary px-4 py-2 rounded-xl font-semibold capitalize flex w-fit justify-center gap-2 items-center text-primary hover:scale-110 transition-all;
+}
+
+.banner {
+  @apply text-center min-h-[110vh] flex items-center lg:-mt-[15vh] py-10
 }
 
 .banner {
@@ -25,6 +52,124 @@
   background-position: "center center";
 }
 
+.banner h2 {
+  @apply font-semibold lg:font-bold leading-snug md:leading-normal text-slate-950 text-3xl md:text-4xl lg:text-5xl lg:px-40 mt-6
+}
+
+.banner p {
+  @apply font-medium text-slate-700 leading-normal text-base md:text-lg lg:px-40 mt-5
+}
+
+.btn-container {
+  @apply mt-8 flex flex-wrap gap-7 justify-center w-full
+}
+
+
+/* VIDEO */
+
+.video_container {
+  @apply w-full lg:w-11/12 mx-auto h-auto p-2 lg:p-5 relative
+}
+
+.video {
+  @apply w-full h-48 md:h-96 lg:h-[600px] rounded-3xl z-10 border-4 border-white
+}
+
+.video_element_1,
+.video_element_2 {
+  @apply w-40 h-40 rounded-2xl absolute -z-10
+}
+
+.video_element_1 {
+  @apply bg-[#ffa6f9] top-0 left-0
+}
+
+.video_element_2 {
+  @apply bg-[#797cff] bottom-0 right-0
+}
+
+
+/* SERVICES SECTION */
+
+.service_card {
+  @apply bg-base-100 border-2 rounded-tl-3xl rounded-br-3xl rounded-tr-xl rounded-bl-xl p-4 lg:p-6 transition-all hover:border-primary hover:border-opacity-40
+}
+
+.service_icon {
+  @apply bg-[#FEDAE3] p-3 rounded-lg inline-block border-2 border-opacity-40 border-primary
+}
+
+.service_card img {
+  @apply h-[22px] lg:h-[27px] w-[22px] lg:w-[27px]
+}
+
+.service_card h2 {
+  @apply font-semibold text-xl lg:text-[22px] mt-4 mb-1.5
+}
+
+.service_card p,
+.review_card p {
+  @apply font-medium text-slate-500 text-base lg:text-[17px]
+}
+
+.service_card_container {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-5
+}
+
+
+/* CHOOSE US */
+
+
+.choose_item {
+  @apply flex items-center gap-3
+}
+
+.choose_item img {
+  @apply w-5 h-5
+}
+
+.choose_item p {
+  @apply font-medium text-lg text-gray-600
+}
+
+
+/* TEAM SECTION */
+
+.team_card,
+.review_card {
+  @apply rounded-tl-3xl rounded-br-3xl rounded-tr-xl rounded-bl-xl border-2
+}
+
+.member_img,
+.review_card img {
+  @apply w-14 h-14 rounded-3xl
+}
+
+.team_card h2 {
+  @apply font-semibold text-xl
+}
+
+.team_card h3 {
+  @apply font-medium text-lg text-slate-600
+}
+
+
+/* FOOTER */
+
+.footer_container {
+  @apply flex flex-wrap justify-between items-center gap-5 py-2 max-w-[1200px] mx-auto
+}
+
+.footer_container img {
+  @apply w-40
+}
+
+.footer_container p {
+  @apply font-medium text-lg
+}
+
+
+
 /* ABOUT US PAGE */
 
 .about_banner {
@@ -32,7 +177,7 @@
 }
 
 .about_container {
-  @apply max-w-[1300px] mx-auto grid grid-cols-2 items-center min-h-[110vh] -mt-[15vh];
+  @apply max-w-[90%] lg:max-w-[1200px] mx-auto grid grid-cols-2 items-center min-h-[110vh] -mt-[15vh];
 }
 
 .about_img {
