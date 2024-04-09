@@ -84,7 +84,7 @@ html, body {
 /* SERVICES SECTION */
 
 .service_card {
-  @apply bg-base-100 border-2 rounded-xl p-4 lg:p-6 transition-all hover:border-primary hover:border-opacity-40
+  @apply bg-base-100 border-2 rounded-tl-3xl rounded-br-3xl rounded-tr-xl rounded-bl-xl p-4 lg:p-6 transition-all hover:border-primary hover:border-opacity-40
 }
 
 .service_icon {
@@ -121,6 +121,25 @@ html, body {
 
 .choose_item p {
   @apply font-medium text-lg text-gray-600
+}
+
+
+/* TEAM SECTION */
+
+.team_card {
+  @apply rounded-tl-3xl rounded-br-3xl rounded-tr-xl rounded-bl-xl border-2
+}
+
+.member_img {
+  @apply w-14 h-14 rounded-3xl
+}
+
+.team_card h2 {
+  @apply font-semibold text-xl
+}
+
+.team_card h3 {
+  @apply font-medium text-lg text-slate-600
 }
 
 
