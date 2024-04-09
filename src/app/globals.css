@@ -57,7 +57,7 @@ html, body {
 }
 
 .banner p {
-  @apply font-medium text-slate-700 leading-normal text-base md:text-lg lg:px-40 mt-3
+  @apply font-medium text-slate-700 leading-normal text-base md:text-lg lg:px-40 mt-5
 }
 
 .btn-container {
@@ -152,6 +152,22 @@ html, body {
 .team_card h3 {
   @apply font-medium text-lg text-slate-600
 }
+
+
+/* FOOTER */
+
+.footer_container {
+  @apply flex flex-wrap justify-between items-center gap-5 py-2 max-w-[1200px] mx-auto
+}
+
+.footer_container img {
+  @apply w-40
+}
+
+.footer_container p {
+  @apply font-medium text-lg
+}
+
 
 
 /* ABOUT US PAGE */

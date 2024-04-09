@@ -8,11 +8,9 @@ const ChooseUs = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
         <div>
           <Image
-            className="w-full"
+            className="w-full md:hidden lg:block"
             src={chooseImg}
-            width={300}
-            height={50}
-            alt=""
+            alt="image"
           />
         </div>
         <div className="space-y-6">

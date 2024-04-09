@@ -6,7 +6,7 @@ const Banner = () => {
 
     return (
         <div className="banner">
-            <div>
+            <div className="max-w-[90%] lg:max-w-[1200px] mx-auto">
                 <span className="our_badge">
                     Digital Dreams
                 </span>
