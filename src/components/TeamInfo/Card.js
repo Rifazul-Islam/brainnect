@@ -57,7 +57,7 @@ const Card = ({ teamInfo }) => {
         <div className="flex gap-4 mt-5 mb-1">
           <div className="border-2 border-[#1877F2] border-opacity-60 rounded-2xl p-1.5">
             <Image
-              className="h-7 w-7 cursor-pointer"
+              className="h-6 w-6 cursor-pointer"
               src={facebookImg}
               alt="facebook"
             />
@@ -65,7 +65,7 @@ const Card = ({ teamInfo }) => {
 
           <div className="border-2 border-[#007AB9] border-opacity-60 rounded-2xl p-1.5">
             <Image
-              className="h-7 w-7 cursor-pointer"
+              className="h-6 w-6 cursor-pointer"
               src={linkedinImg}
               alt="linkedin"
             />
@@ -73,7 +73,7 @@ const Card = ({ teamInfo }) => {
 
           <div className="border-2 border-[#FC4772] border-opacity-60 rounded-2xl p-1.5">
             <Image
-              className="h-7 w-7 cursor-pointer"
+              className="h-6 w-6 cursor-pointer"
               src={portfolioImg}
               alt="portfolio"
             />
@@ -81,7 +81,7 @@ const Card = ({ teamInfo }) => {
 
           <div className="border-2 border-[#39AE41] border-opacity-60 rounded-2xl p-1.5">
             <Image
-              className="h-7 w-7 cursor-pointer"
+              className="h-6 w-6 cursor-pointer"
               src={whatsappImg}
               alt="whatsapp"
             />
