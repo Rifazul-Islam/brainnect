@@ -44,11 +44,6 @@ html, body {
   background-position: "center center";
 }
 
-.banner > div,
-.video_section {
-  @apply max-w-[90%] lg:max-w-[1300px] mx-auto
-}
-
 .banner h2 {
   @apply font-semibold lg:font-bold leading-snug md:leading-normal text-slate-950 text-3xl md:text-4xl lg:text-5xl lg:px-40 mt-6
 }
@@ -65,7 +60,7 @@ html, body {
 /* VIDEO */
 
 .video_container {
-  @apply w-full lg:w-3/4 mx-auto h-auto p-2 lg:p-5 relative
+  @apply w-full lg:w-11/12 mx-auto h-auto p-2 lg:p-5 relative
 }
 
 .video {
@@ -93,7 +88,7 @@ html, body {
 }
 
 .service_icon {
-  @apply bg-[#FEDAE3] p-3 rounded-lg inline-block
+  @apply bg-[#FEDAE3] p-3 rounded-lg inline-block border-2 border-opacity-40 border-primary
 }
 
 .service_card img {
@@ -109,7 +104,23 @@ html, body {
 }
 
 .service_card_container {
-  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-5
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-5
+}
+
+
+/* CHOOSE US */
+
+
+.choose_item {
+  @apply flex items-center gap-3
+}
+
+.choose_item img {
+  @apply w-5 h-5
+}
+
+.choose_item p {
+  @apply font-medium text-lg text-gray-600
 }
 
 

@@ -13,7 +13,7 @@ const OurGoals = () => {
   }, []);
 
   return (
-    <div className="my-10 px-4 lg:px-40 ">
+    <div className="my-10">
       <div className="text-center">
         <span className="our_badge">
           Goals
