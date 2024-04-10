@@ -6,9 +6,9 @@ import Image from 'next/image'
 const Navbar = () => {
 
   return (
-    <div className="flex justify-between items-center py-2 max-w-[90%] lg:max-w-[1200px] mx-auto">
+    <div className="flex justify-between items-center py-5 max-w-[90%] lg:max-w-[1200px] mx-auto">
       <Link href={'/'}>
-        <Image src={logo} alt='logo' className="w-40"></Image>
+        <Image src={logo} alt='logo' className="w-32"></Image>
       </Link>
       <div className="drawer lg:hidden">
         <input id="my-drawer" type="checkbox" className="drawer-toggle" />
@@ -21,7 +21,7 @@ const Navbar = () => {
         <div className="drawer-side">
           <label htmlFor="my-drawer" aria-label="close sidebar" className="drawer-overlay"></label>
           <ul className="menu p-4 w-60 md:w-72 min-h-full bg-base-200 text-base-content">
-            <Image src={logo} alt='logo' className="w-40"></Image>
+            <Image src={logo} alt='logo' className="w-32 mb-3"></Image>
             <li><Link className="font-medium text-lg" href={"/"}>Home</Link></li>
             <li><Link className="font-medium text-lg" href={"/about-us"}>About Us</Link></li>
             <li><Link className="font-medium text-lg" href={"/projects"}>Projects</Link></li>
