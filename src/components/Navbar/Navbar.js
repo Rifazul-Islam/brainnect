@@ -4,6 +4,7 @@ import bars from '@/assets/bars.png'
 import Image from 'next/image'
 
 const Navbar = () => {
+
   return (
     <div className="flex justify-between items-center py-2 max-w-[90%] lg:max-w-[1200px] mx-auto">
       <Link href={'/'}>
