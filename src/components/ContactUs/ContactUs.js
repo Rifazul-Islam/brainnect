@@ -15,19 +15,19 @@ const ContactUs = () => {
             <div>
                 <h3 className="text-2xl font-semibold">Contact us via social media</h3>
                 <div className="flex flex-wrap gap-3 mt-4">
-                    <div className="border-2 border-[#1877F2] border-opacity-60 p-1.5 rounded-xl">
+                    <div className="border-2 border-[#1877F2] border-opacity-60 transition-all hover:border-opacity-100 cursor-pointer p-1.5 rounded-xl">
                         <Link className="flex items-center gap-2" href={"#"}>
                             <Image width={25} height={25} src={facebook} alt="facebook"></Image>
                             <p className="font-semibold">Facebook</p>
                         </Link>
                     </div>
-                    <div className="border-2 border-[#007AB9] border-opacity-60 p-1.5 rounded-xl">
+                    <div className="border-2 border-[#007AB9] border-opacity-60 transition-all hover:border-opacity-100 cursor-pointer p-1.5 rounded-xl">
                         <Link className="flex items-center gap-2" href={"#"}>
                             <Image width={25} height={25} src={linkedin} alt="facebook"></Image>
                             <p className="font-semibold">Linkedin</p>
                         </Link>
                     </div>
-                    <div className="border-2 border-[#39AE41] border-opacity-60 p-1.5 rounded-xl">
+                    <div className="border-2 border-[#39AE41] border-opacity-60 transition-all hover:border-opacity-100 cursor-pointer p-1.5 rounded-xl">
                         <Link className="flex items-center gap-2" href={"#"}>
                             <Image width={25} height={25} src={whatsapp} alt="facebook"></Image>
                             <p className="font-semibold">Whatsapp</p>

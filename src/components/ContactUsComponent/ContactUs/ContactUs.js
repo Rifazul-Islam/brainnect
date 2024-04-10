@@ -33,7 +33,7 @@ const ContactUs = () => {
                 </div> 
                 <h3 className="text-2xl font-semibold mt-5 capitalize">our social media links</h3>
                 <div className="flex gap-4 mt-5 mb-1">
-                    <div className="border-2 border-[#1877F2] border-opacity-60 rounded-2xl p-1.5">
+                    <div className="border-2 border-[#1877F2] border-opacity-60 transition-all hover:border-opacity-100 cursor-pointer rounded-2xl p-1.5">
                         <Image
                         className="h-6 w-6 cursor-pointer"
                         src={facebookImg}
@@ -41,7 +41,7 @@ const ContactUs = () => {
                         />
                     </div>
 
-                    <div className="border-2 border-[#007AB9] border-opacity-60 rounded-2xl p-1.5">
+                    <div className="border-2 border-[#007AB9] border-opacity-60 transition-all hover:border-opacity-100 cursor-pointer rounded-2xl p-1.5">
                         <Image
                         className="h-6 w-6 cursor-pointer"
                         src={linkedinImg}
@@ -49,7 +49,7 @@ const ContactUs = () => {
                         />
                     </div>
 
-                    <div className="border-2 border-[#39AE41] border-opacity-60 rounded-2xl p-1.5">
+                    <div className="border-2 border-[#39AE41] border-opacity-60 transition-all hover:border-opacity-100 cursor-pointer rounded-2xl p-1.5">
                         <Image
                         className="h-6 w-6 cursor-pointer"
                         src={whatsappImg}
