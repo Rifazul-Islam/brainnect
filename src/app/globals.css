@@ -157,15 +157,15 @@ html, body {
 /* FOOTER */
 
 .footer_container {
-  @apply flex flex-wrap justify-between items-center gap-5 py-2 max-w-[90%] lg:max-w-[1200px] mx-auto
+  @apply flex flex-wrap justify-between items-center gap-5 py-4 max-w-[90%] lg:max-w-[1200px] mx-auto
 }
 
 .footer_container img {
-  @apply w-40
+  @apply w-28
 }
 
 .footer_container p {
-  @apply font-medium text-lg
+  @apply font-medium
 }
 
 
