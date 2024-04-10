@@ -55,7 +55,7 @@ const Card = ({ teamInfo }) => {
           ''
         }
         <div className="flex gap-4 mt-5 mb-1">
-          <div className="border-2 border-[#1877F2] border-opacity-60 rounded-2xl p-1.5">
+          <div className="border-2 border-[#1877F2] border-opacity-60 cursor-pointer transition-all hover:border-opacity-100 rounded-2xl p-1.5">
             <Image
               className="h-6 w-6 cursor-pointer"
               src={facebookImg}
@@ -63,7 +63,7 @@ const Card = ({ teamInfo }) => {
             />
           </div>
 
-          <div className="border-2 border-[#007AB9] border-opacity-60 rounded-2xl p-1.5">
+          <div className="border-2 border-[#007AB9] border-opacity-60 cursor-pointer transition-all hover:border-opacity-100 rounded-2xl p-1.5">
             <Image
               className="h-6 w-6 cursor-pointer"
               src={linkedinImg}
@@ -71,7 +71,7 @@ const Card = ({ teamInfo }) => {
             />
           </div>
 
-          <div className="border-2 border-[#FC4772] border-opacity-60 rounded-2xl p-1.5">
+          <div className="border-2 border-[#FC4772] border-opacity-60 cursor-pointer transition-all hover:border-opacity-100 rounded-2xl p-1.5">
             <Image
               className="h-6 w-6 cursor-pointer"
               src={portfolioImg}
@@ -79,7 +79,7 @@ const Card = ({ teamInfo }) => {
             />
           </div>
 
-          <div className="border-2 border-[#39AE41] border-opacity-60 rounded-2xl p-1.5">
+          <div className="border-2 border-[#39AE41] border-opacity-60 cursor-pointer transition-all hover:border-opacity-100 rounded-2xl p-1.5">
             <Image
               className="h-6 w-6 cursor-pointer"
               src={whatsappImg}
