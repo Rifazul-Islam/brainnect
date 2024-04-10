@@ -1,0 +1,10 @@
+#projectCard{
+}
+#projectCard:hover #content{
+    height: auto;
+    background: #d34d4d;
+}
+#content{
+    height: 50px;
+    overflow: hidden;
+}
