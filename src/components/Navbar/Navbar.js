@@ -31,12 +31,12 @@ const Navbar = () => {
       </div>
       <div className="hidden items-center gap-4 lg:flex">
         <ul className="flex items-center gap-7 text-base font-normal">
-          <li><Link className="font-medium text-lg" href={"/"}>Home</Link></li>
-          <li><Link className="font-medium text-lg" href={"/about-us"}>About Us</Link></li>
-          <li><Link className="font-medium text-lg" href={"/projects"}>Projects</Link></li>
-          <li><Link className="font-medium text-lg" href={"/contact-us"}>Contact Us</Link></li>
+          <li><Link className="font-medium text-base" href={"/"}>Home</Link></li>
+          <li><Link className="font-medium text-base" href={"/about-us"}>About Us</Link></li>
+          <li><Link className="font-medium text-base" href={"/projects"}>Projects</Link></li>
+          <li><Link className="font-medium text-base" href={"/contact-us"}>Contact Us</Link></li>
         </ul>
-        <button className="primary-btn">{`Let's Talk`}</button>
+        <button className="primary-btn ml-3">{`Let's Talk`}</button>
       </div>
     </div>
   );
