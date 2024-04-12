@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Footer = () => {
     return (
-        <div className="bg-[#b9bafd]">
+        <div className="border-t">
             <div className="footer_container">
                 <Image src={logo} alt='logo'></Image>
                 <p>© Copyright 2024 dreamery all right resereved</p>
