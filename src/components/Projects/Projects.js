@@ -27,7 +27,7 @@ const Projects = () => {
                 <div key={project._id} id={styles.projectCard} className='bg-[#F0EEED] p-5 rounded-2xl h-[470px] relative overflow-hidden'>
                     <Image id={styles.imageCov} width={"100%"} height={"100%"} src={project1} alt='project 1' />
                     <hr />
-                    <div id={styles.cover} className="w-full h-full bg-[#e2e2f79d] absolute -top-[500px] left-0 -z-0 transition duration-700"></div>
+                    <div id={styles.cover} className="w-full h-full bg-[#e2e2f79d] absolute -top-[500px] left-0 -z-0 transition duration-700 ease-in-out"></div>
                     <div className="transition z-10 absolute" id={styles.contentBox}>
                     <div id={styles.content} >
                         <h3 className='text-lg font-semibold'>{project?.name} - <span className='text-base'>A Human Resource Management Website</span></h3>
