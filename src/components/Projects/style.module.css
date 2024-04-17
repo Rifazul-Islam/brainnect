@@ -2,3 +2,7 @@
 #projectCard:hover #contentBox{
     margin-top: -65px;
 }
+
+#projectCard:hover #cover{
+    top: 0;
+}
