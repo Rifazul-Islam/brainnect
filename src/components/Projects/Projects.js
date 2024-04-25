@@ -21,7 +21,7 @@ const Projects = () => {
     console.log(previewDevice);
     return (
         <>
-        <div className="w-[1300px] mx-auto">
+        <div className="lg:w-[1300px] mx-auto">
           <div className="text-center">
               <span className="text-red-600 border-red-400 border p-1 px-4 rounded-md cursor-pointer">
                 Projects
@@ -29,14 +29,16 @@ const Projects = () => {
               <h2 className="text-3xl font-semibold my-2 mt-3">Our Recent Works</h2>
            </div>
            {/* projects container */}
-           <div className="grid grid-cols-3 gap-5 mt-10">
+           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10">
             {
                 projects?.map(project => (
-                <div key={project._id} id={styles.projectCard} className='bg-[#F0EEED] p-5 rounded-2xl h-[470px] relative overflow-hidden'>
-                    <Image id={styles.imageCov} width={300} height={100} src={'https://i.ibb.co/vj00X9s/unity-spark-22122-web-app-2.png'} alt='project 1' />
+                <div key={project._id} id={styles.projectCard} className='bg-[#F0EEED] p-5 rounded-2xl h-[490px] relative overflow-hidden'>
+                    <div className="lg:w-[380px] h-[380px] overflow-hidden mb-5" >
+                    <Image id={styles.cardImg} width={400} height={360} src={'https://i.ibb.co/vj00X9s/unity-spark-22122-web-app-2.png'} alt='project 1' />
+                    </div>
                     <hr />
-                    <div id={styles.cover} className="w-full h-full bg-[#e2e2f79d] absolute -top-[500px] left-0 -z-0 transition duration-700 ease-in-out"></div>
-                    <div className="transition z-10 absolute" id={styles.contentBox}>
+                    <div id={styles.cover} className="w-full h-full absolute -top-[500px] left-0 -z-0 transition duration-700 ease-in-out"></div>
+                    <div className="transition z-10 absolute duration-1000" id={styles.contentBox}>
                     <div id={styles.content} >
                         <h3 className='text-lg font-semibold'>{project?.name} - <span className='text-base'>A Human Resource Management Website</span></h3>
                     </div>

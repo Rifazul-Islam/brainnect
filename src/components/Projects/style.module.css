@@ -6,3 +6,6 @@
 #projectCard:hover #cover{
     top: 0;
 }
+#projectCard:hover #cardImg {
+    filter: blur(10px);
+}
