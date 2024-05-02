@@ -1,6 +1,6 @@
+import checkImg from '@/assets/check.png';
+import chooseImg from '@/assets/choose-img.png';
 import Image from "next/image";
-import checkImg from '@/assets/check.png'
-import chooseImg from '@/assets/choose-img.png'
 
 const ChooseUs = () => {
   return (
@@ -61,9 +61,11 @@ const ChooseUs = () => {
           </div>
 
           <div className="pt-3">
+          <a className="flex items-center gap-2" href="https://wa.me/+8801795350190?text=Hello how can we help you?" target="_blank" rel="noopener noreferrer" >
             <button className="primary-btn">
               Get Started
             </button>
+            </a>
           </div>
         </div>
       </div>

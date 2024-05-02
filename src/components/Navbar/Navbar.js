@@ -37,7 +37,9 @@ const Navbar = () => {
           <li><Link className="font-medium text-base" href={"/projects"}>Projects</Link></li>
           <li><Link className="font-medium text-base" href={"/contact-us"}>Contact Us</Link></li>
         </ul>
+        <a className="flex items-center gap-2" href="https://wa.me/+8801795350190?text=Hello how can we help you?" target="_blank" rel="noopener noreferrer" >
         <button className="primary-btn ml-3">{`Let's Talk`}</button>
+        </a>
       </div>
     </div>
   );

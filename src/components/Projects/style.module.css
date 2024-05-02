@@ -1,0 +1,11 @@
+
+#projectCard:hover #contentBox{
+    margin-top: -65px;
+}
+
+#projectCard:hover #cover{
+    top: 0;
+}
+#projectCard:hover #cardImg {
+    filter: blur(5px);
+}
