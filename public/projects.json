@@ -2,7 +2,7 @@
     "projects":[
         {
             "_id": "1",
-            "image": "image1.jpg",
+            "image": "https://i.ibb.co/vszy2cb/unity-spark-22122-web-app-3.png",
             "name": "UnitySpark",
             "type": "A Human Resourch Management Website",
             "live_link": "https://example.com/project1",
@@ -12,37 +12,37 @@
         },
         {
             "_id": "2",
-            "image": "image2.jpg",
-            "name": "UnitySpark",
-            "type": "A Human Resourch Management Website",
-            "live_link": "https://example.com/project2",
-            "desktop_v_image": "https://i.ibb.co/vszy2cb/unity-spark-22122-web-app-3.png",
-            "tablet_v_image": "https://i.ibb.co/fqHTnZy/unity-spark-22122-web-app.png",
-            "mobile_v_image": "https://i.ibb.co/N6rhgX9/unity-spark-22122-web-app-1.png"
+            "image": "https://i.ibb.co/0ZLHjWZ/assigments-de09b-web-app.png",
+            "name": "Dexter",
+            "type": "A Fitness Training Center Website",
+            "live_link": "https://assigments-de09b.web.app",
+            "desktop_v_image": "https://i.ibb.co/0ZLHjWZ/assigments-de09b-web-app.png",
+            "tablet_v_image": "https://i.ibb.co/jH6VvwG/assigments-de09b-web-app-1.png",
+            "mobile_v_image": "https://i.ibb.co/TMBKVcT/assigments-de09b-web-app-2.png"
         },
         {
             "_id": "3",
-            "image": "image3.jpg",
-            "name": "UnitySpark",
-            "type": "A Human Resourch Management Website",
-            "live_link": "https://example.com/project3",
-            "desktop_v_image": "https://i.ibb.co/vszy2cb/unity-spark-22122-web-app-3.png",
-            "tablet_v_image": "https://i.ibb.co/fqHTnZy/unity-spark-22122-web-app.png",
-            "mobile_v_image": "https://i.ibb.co/N6rhgX9/unity-spark-22122-web-app-1.png"
+            "image": "https://i.ibb.co/QnKcHPL/blogy-83e04-web-app.png",
+            "name": "Blogy",
+            "type": "A blog website",
+            "live_link": "https://example.com/project4",
+            "desktop_v_image": "https://i.ibb.co/QnKcHPL/blogy-83e04-web-app.png",
+            "tablet_v_image": "https://i.ibb.co/q0MQ0H7/blogy-83e04-web-app-1.png",
+            "mobile_v_image": "https://i.ibb.co/0fbCG7T/blogy-83e04-web-app-2.png"
         },
         {
             "_id": "4",
-            "image": "image4.jpg",
-            "name": "UnitySpark",
-            "type": "A Human Resourch Management Website",
-            "live_link": "https://example.com/project4",
-            "desktop_v_image": "https://i.ibb.co/vszy2cb/unity-spark-22122-web-app-3.png",
-            "tablet_v_image": "https://i.ibb.co/fqHTnZy/unity-spark-22122-web-app.png",
-            "mobile_v_image": "https://i.ibb.co/N6rhgX9/unity-spark-22122-web-app-1.png"
+            "image": "https://i.ibb.co/kK4J6jQ/wellnexs-web-app.png",
+            "name": "Wellnex",
+            "type": "A Medical Camps Management Website",
+            "live_link": "https://wellnexs.web.app",
+            "desktop_v_image": "https://i.ibb.co/kK4J6jQ/wellnexs-web-app.png",
+            "tablet_v_image": "https://i.ibb.co/DWJXCBx/wellnexs-web-app-1.png",
+            "mobile_v_image": "https://i.ibb.co/jbRYhtp/wellnexs-web-app-2.png"
         },
         {
             "_id": "5",
-            "image": "image5.jpg",
+            "image": "https://i.ibb.co/vszy2cb/unity-spark-22122-web-app-3.png",
             "name": "UnitySpark",
             "type": "A Human Resourch Management Website",
             "live_link": "https://example.com/project5",
@@ -52,7 +52,7 @@
         },
         {
             "_id": "6",
-            "image": "image6.jpg",
+            "image": "https://i.ibb.co/vszy2cb/unity-spark-22122-web-app-3.png",
             "name": "UnitySpark",
             "type": "A Human Resourch Management Website",
             "live_link": "https://example.com/project6",

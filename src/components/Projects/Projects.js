@@ -34,13 +34,15 @@ const Projects = () => {
                 projects?.map(project => (
                 <div key={project._id} id={styles.projectCard} className='bg-[#F0EEED] p-5 rounded-2xl h-[490px] relative overflow-hidden'>
                     <div className="lg:w-[380px] h-[380px] overflow-hidden mb-5" >
-                    <Image id={styles.cardImg} width={400} height={360} src={'https://i.ibb.co/vj00X9s/unity-spark-22122-web-app-2.png'} alt='project 1' />
+                    <Image id={styles.cardImg} width={400} height={360} src={project?.image} alt='project 1' />
                     </div>
                     <hr />
                     <div id={styles.cover} className="w-full h-full absolute -top-[500px] left-0 -z-0 transition duration-700 ease-in-out"></div>
                     <div className="transition z-10 absolute duration-1000" id={styles.contentBox}>
-                    <div id={styles.content} >
-                        <h3 className='text-lg font-semibold'>{project?.name} - <span className='text-base'>A Human Resource Management Website</span></h3>
+                    <div className="min-h-16" id={styles.content} >
+                        <h3 className='text-lg font-semibold'>{project?.name} - <span className='text-base'>
+                            {project?.type}
+                            </span></h3>
                     </div>
                     <div id={styles.buttons} className='flex gap-5 mt-5'>
                         <button onClick={()=>document.getElementById('my_modal_2').showModal()} className="bg-[#FC4772] text-white px-4 py-2 rounded-lg">Preview</button>
